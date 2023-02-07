@@ -1,0 +1,290 @@
+:root {
+    --primary: rgb(136, 64, 242);
+    --secand: white;
+    --third: #F1F1F1;
+}
+
+.container-fluid {
+    background-color: #FAFAF9;
+}
+
+.card-prix {
+    height: 20%;
+    background-color: var(--primary);
+}
+
+.card-prix>h1 {
+    position: absolute;
+    color: var(--secand);
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-prix>.container>p {
+    color: var(--secand);
+}
+
+.container1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.container1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.container1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #ccc;
+}
+
+.container1>.container {
+    min-width: 95% !important;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container1>form .form-control,
+.container1>form.form-select {
+    width: auto;
+    display: inline;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.container1>form {
+    height: 70%;
+    max-height: 70%;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.table {
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table>* {
+    text-align: center;
+}
+
+table>thead>tr>th>img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+table>tbody>tr>td>button {
+    border: none;
+    background: transparent;
+}
+
+table>tbody>tr>td>a>img,
+table>tbody>tr>td>button>img {
+    height: 40px;
+    width: 40px;
+}
+.prudact>form {
+    height: 90%;
+    max-height: 90%;
+}
+
+.prudact>form .btn-add {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.popup-add-prudact {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-add-prudact>.container {
+    background-color: var(--secand);
+
+}
+
+.popup-add-prudact>.container>.container-fluid {
+    border-radius: 3px;
+}
+
+/*dashbord*/
+.dashbord>.container {
+    box-shadow: none;
+    height: 100%;
+}
+
+.dashbord>.container>.container-fluid>div>div {
+    border-radius: 5px;
+}
+
+.box p {
+    color: #999;
+}
+
+.box {
+    background-color: var(--secand);
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 300px;
+}
+
+.box-1 {
+    border-top: 3px solid var(--bs-primary);
+}
+
+.box-2 {
+    border-top: 3px solid var(--bs-red);
+}
+
+.box-3 {
+    border-top: 3px solid var(--bs-teal);
+}
+
+.box-4 {
+    border-top: 3px solid var(--primary);
+}
+
+.box-1 .rate {
+    color: var(--bs-primary);
+    font-weight: bold;
+}
+
+.box-2 .rate {
+    color: var(--bs-red);
+    font-weight: bold;
+}
+
+.box-3 .rate {
+    color: var(--bs-teal);
+    font-weight: bold;
+}
+
+.box-4 .rate {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.rang {
+    position: relative;
+    display: inline;
+    width: 80%;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ccc;
+}
+
+.rang-rate {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+
+.seate-rate {
+    display: inline;
+}
+
+.steate img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bar-rate-1 {
+    width: 50%;
+    background-color: var(--bs-primary);
+}
+
+.bar-rate-2 {
+    width: 14%;
+    background-color: var(--bs-red);
+}
+
+.bar-rate-3 {
+    width: 80%;
+    background-color: var(--bs-teal);
+}
+
+.bar-rate-4 {
+    width: 66%;
+    background-color: var(--primary);
+}
+
+.text-rate-1 {
+    color: var(--bs-primary);
+}
+
+.text-rate-2 {
+    color: var(--bs-red);
+}
+
+.text-rate-3 {
+    color: var(--bs-teal);
+}
+
+.text-rate-4 {
+    color: var(--primary);
+}
+
+.prenext {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+}
+
+.prenext p,
+.prenext i {
+    margin: 0;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.prenext .fi-rr-angle-small-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-37%);
+    right: -50%;
+}
+
+.prenext .fi-rr-angle-small-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-36%);
+    left: -50%;
+}
+
+.customer-steat {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "work-sans-Light";
+}
+.chart-steat {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "work-sans-Light";
+}
